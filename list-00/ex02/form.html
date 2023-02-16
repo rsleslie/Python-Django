@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>ex02</title>
+    <script src="popup.js"></script>
+</head>
+<body>
+	<form>
+		<div>
+			<label for="firstname">Fistname:</label>
+			<input id="firstname" type="text">
+
+			<p><label for="name">Name:</label>
+			<input id="name" type="text">
+
+			<p><label for="age">Age:</label>
+			<input id="age" type="number">
+
+			<p><label for="phone">Phone:</label>
+			<input type="tel" id="phone">
+
+			<p><label for="email">Email:</label>
+			<input type="email" id="email" required>
+            
+			<p>Você estuda na 42 ?: <input id="student" type="checkbox"> </p>
+			Male<input name="gender" value="Male" id="gender_male" type="radio">
+			Female<input name="gender" value="Female" id="gender_female" type="radio">
+			Other<input name="gender" value="Other" id="gender_other" type="radio">
+		</div>	
+	</form>    
+	<button type="submit" onclick="displayFormContents()">Run that sexy Javascript !</button>
+</body>
+</html>

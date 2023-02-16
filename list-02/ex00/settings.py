@@ -1,0 +1,6 @@
+title = "Resume"
+name = "Ranna"
+surname = "Silva"
+age = "26"
+profession = "Student"
+batata = "frita"
